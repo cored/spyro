@@ -3,8 +3,7 @@ spyro
 
 == DESCRIPTION:
 
-This project will host all my experiment regarding unit testing with different libraries
-The list of problem to do using TDD/BDD are from http://sites.google.com/site/tddproblems/all-problems-1
+Learning rspec doing BDD the list of problems to use will be http://sites.google.com/tddproblems
 
 == LICENSE:
 
