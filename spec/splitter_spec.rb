@@ -8,7 +8,11 @@ describe Splitter do
    end
 
    it "should return the protocol for a given URL" do
-     @splitter.protocol.should == "http"
+     @splitter.protocol.should == 'http'
+   end
+
+   it "should return the domain for a given URL" do
+     @splitter.domain.should == 'www.google.se'
    end
 
 end
