@@ -5,10 +5,15 @@ class Splitter
   end
 
   def protocol
-    @url.split(/:\/\//)[0]
+    @url[/^\w+/]
   end
 
   def domain
-    @url.split(/:\/\//)[1]
+    @url[/(\w+\.\w+\.\w+)/]
   end 
+
+  def path
+    @url[/$\w+\//]
+  end
+
 end

@@ -15,6 +15,8 @@ describe Splitter do
      @splitter.domain.should == 'www.google.se'
    end
 
+   it "should return the path for a given URL" 
+
 end
 
 # EOF

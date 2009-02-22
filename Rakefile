@@ -16,7 +16,7 @@ end
 ensure_in_path 'lib'
 require 'spyro'
 
-task :default => 'spec:run'
+task :default => 'spec:specdoc'
 
 PROJ.name = 'spyro'
 PROJ.authors = 'Rafael George'
