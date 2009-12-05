@@ -13,7 +13,7 @@ class Splitter
   end 
 
   def path
-    @url[/$\w+\//]
+    @url[/$\w+\/|\//]
   end
 
 end

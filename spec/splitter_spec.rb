@@ -4,7 +4,7 @@ require File.join(File.dirname(__FILE__), %w[spec_helper])
 describe Splitter do
 
    before(:each) do
-     @splitter = Splitter.new('http://www.google.se')
+     @splitter = Splitter.new('http://www.google.se/')
    end
 
    it "should return the protocol for a given URL" do
@@ -15,7 +15,9 @@ describe Splitter do
      @splitter.domain.should == 'www.google.se'
    end
 
-   it "should return the path for a given URL" 
+   it "should return the path for a given URL" do
+    @splitter.path.should == '/'
+   end
 
 end
 
