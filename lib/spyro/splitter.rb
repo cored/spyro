@@ -9,7 +9,7 @@ class Splitter
   end
 
   def domain
-    @url[/(\w+\.\w+\.\w+)/]
+    @url[/(^\/\w+)/]
   end 
 
   def path
